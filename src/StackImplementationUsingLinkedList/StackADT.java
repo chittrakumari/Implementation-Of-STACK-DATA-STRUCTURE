@@ -12,7 +12,7 @@ public interface StackADT<E> {
     //fetches the value at the top of the stack without deleting it.
     public E peek();
 
-    //to print the stack
+    //to traverse the stack
     public void print();
 
     public boolean isEmpty();

@@ -7,6 +7,7 @@ public class definition<E> implements StackADT<E> {
     private ArrayList<E> stack;
     public definition()
     {
+
         stack = new ArrayList<>();
     }
     public boolean push(E item){
@@ -30,7 +31,7 @@ public class definition<E> implements StackADT<E> {
     }
 public boolean isEmpty(){
 
-        return false;
+        return stack.isEmpty();
 }
 
 
